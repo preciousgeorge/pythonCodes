@@ -64,7 +64,7 @@ def rpsls(player_choice):
 
     # compute difference of comp_number and player_number modulo five
     
-    diff = (comp_number - player_number) % 5 
+    diff = (player_number - comp_number) % 5 
     # use if/elif/else to determine winner, print winner message
     if diff == 0:
         print "It's a tie, play again"
